@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "database-backup-utility"
+version = "0.1.0"
+description = "Database backup utility for various DBs based on Python"
+authors = ["Mohammed Ahad <kulahad007@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+pymongo = "^4.9.1"
+psycopg2 = "^2.9.9"
+pymssql = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
